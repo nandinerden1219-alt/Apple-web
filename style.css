@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: inter;
 }
 
 .navbar {
@@ -27,5 +28,123 @@
   width: 14px;
   height: 44px;
 }
-.navbar img {
+span {
+  font-family: inter;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  color: #1d1d1f;
+  padding-top: 16px;
+}
+.Pro {
+  background-image: url(./background1.jpg);
+  width: 100%;
+  height: 692px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter;
+  gap: 16px;
+}
+h1 {
+  font-size: 52px;
+  color: white;
+  font-weight: 600;
+  margin-top: 50px;
+  padding-top: 36px;
+}
+p {
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+}
+.Pro div {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter;
+  padding:
+    left 20px,
+    right 20px,
+    top 12px,
+    bottom 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.learn {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  color: white;
+  border-radius: 30px;
+}
+.buy {
+  width: 68px;
+  height: 44px;
+  color: white;
+  border-radius: 30px;
+  background-color: transparent;
+  border: solid 2px #0071e3;
+}
+.iphone16 {
+  background-image: url(./Figure.png);
+  width: 100%;
+  height: 692px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter;
+  gap: 16px;
+}
+.iphone16 div {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter;
+  padding:
+    left 20px,
+    right 20px,
+    top 12px,
+    bottom 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.background3 {
+  background-image: url(/apple.png);
+  width: 100%;
+  height: 692px;
+  background-color: #f5f5f7cc;
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 100px;
+}
+.background3 h1 {
+  color: black;
+}
+.background3 p {
+  color: black;
+}
+.shop {
+  width: 114px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 16px;
 }
