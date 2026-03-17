@@ -3,6 +3,11 @@
   margin: 0;
   font-family: inter;
 }
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
 body {
   display: flex;
   align-items: center;
@@ -50,6 +55,7 @@ main {
   background-image: url(./background1.jpg);
   width: 100%;
   height: 692px;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 16px;
@@ -121,7 +127,7 @@ main div {
   background-image: url(./apple.png);
   background-position: center;
   background-size: cover;
-  width: 100%px;
+  width: 100%;
   height: 692px;
   padding-top: 12px;
   display: flex;
@@ -301,4 +307,127 @@ main div {
 }
 #card .more {
   margin-top: 10px;
+}
+.carousel {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: 20px;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  animation: spin 30s infinite linear;
+}
+
+.page {
+  width: 417px;
+  height: 237px;
+  background-size: cover;
+}
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+.group :hover {
+  animation-play-state: paused;
+}
+#page1 {
+  background-image: url(./1.jpg);
+}
+#page2 {
+  background-image: url(./2.jpg);
+}
+#page3 {
+  background-image: url(./3.jpg);
+}
+#page4 {
+  background-image: url(./4.jpg);
+}
+#page5 {
+  background-image: url(./5.jpg);
+}
+#page6 {
+  background-image: url(./6.jpg);
+}
+#page7 {
+  background-image: url(./7.jpg);
+}
+#page8 {
+  background-image: url(./8.jpg);
+}
+#page9 {
+  background-image: url(./9.jpg);
+}
+#page10 {
+  background-image: url(./10.jpg);
+}
+
+/* hajuu tishe hucheer huduldg */
+.media {
+  width: 100%;
+  height: 668px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.media div {
+  width: 1250px;
+  height: 668px;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  scroll-snap-align: center;
+}
+.item1 {
+  background-image: url(./napoleon.jpg);
+}
+.item2 {
+  background-image: url(./bad-monkey.jpg);
+}
+.item3 {
+  background-image: url(./baseball.jpg);
+}
+.item4 {
+  background-image: url(./instigators.jpg);
+}
+.item5 {
+  background-image: url(k-pop-idols.jpg);
+}
+.item6 {
+  background-image: url(lady-in-the-lake.jpg);
+}
+.item7 {
+  background-image: url(./morning-show.jpg);
+}
+.item8 {
+  background-image: url(pachinko.jpg);
+}
+.item9 {
+  background-image: url(pressumed-innocent.jpg);
+}
+.item10 {
+  background-image: url(season-pass.jpg);
+}
+.dot a {
+  width: 12px;
+  height: 12px;
+  background: gray;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dots {
+  display: flex;
 }
