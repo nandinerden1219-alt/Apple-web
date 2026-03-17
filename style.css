@@ -3,8 +3,13 @@
   margin: 0;
   font-family: inter;
 }
-
-.navbar {
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/* navbar fixed */
+nav {
   width: 100%;
   height: 44px;
   display: flex;
@@ -15,6 +20,7 @@
   align-items: center;
   justify-content: center;
   background-color: #f5f5f7cc;
+  position: fixed;
 }
 .logo {
   width: 14px;
@@ -28,6 +34,7 @@
   width: 14px;
   height: 44px;
 }
+/* navbar end */
 span {
   font-family: inter;
   font-size: 14px;
@@ -35,15 +42,17 @@ span {
   display: flex;
   justify-content: center;
   color: #1d1d1f;
-  padding-top: 16px;
+  padding-top: 60px;
 }
-.Pro {
+/* main product name */
+/* first */
+main {
   background-image: url(./background1.jpg);
   width: 100%;
   height: 692px;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 8px;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +71,7 @@ p {
   color: white;
   font-weight: 400;
 }
-.Pro div {
+main div {
   font-size: 16px;
   font-weight: 400;
   font-family: Inter;
@@ -82,6 +91,9 @@ p {
   background-color: #0071e3;
   color: white;
   border-radius: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .buy {
   width: 68px;
@@ -89,40 +101,28 @@ p {
   color: white;
   border-radius: 30px;
   background-color: transparent;
-  border: solid 2px #0071e3;
-}
-.iphone16 {
-  background-image: url(./Figure.png);
-  width: 100%;
-  height: 692px;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 8px;
-  display: flex;
-  flex-direction: column;
+  border: solid 1px #0071e3;
   align-items: center;
-  font-family: Inter;
-  gap: 16px;
-}
-.iphone16 div {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: Inter;
-  padding:
-    left 20px,
-    right 20px,
-    top 12px,
-    bottom 12px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 16px;
 }
-.background3 {
-  background-image: url(/apple.png);
-  width: 100%;
+/* firstend */
+/* main second */
+#main {
+  background-image: url(./Figure.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8px;
+}
+/* second end */
+/* main third  */
+.main {
+  background-image: url(./apple.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%px;
   height: 692px;
-  background-color: #f5f5f7cc;
   padding-top: 12px;
   display: flex;
   flex-direction: column;
@@ -131,10 +131,10 @@ p {
   justify-content: end;
   padding-bottom: 100px;
 }
-.background3 h1 {
+.main h1 {
   color: black;
 }
-.background3 p {
+.main p {
   color: black;
 }
 .shop {
@@ -147,4 +147,158 @@ p {
   align-items: center;
   color: white;
   gap: 16px;
+}
+/* main end */
+/* products */
+.product {
+  width: 100%;
+  height: 1764px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 12px;
+}
+.product figure {
+  width: 49%;
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product h1 {
+  font-size: 36px;
+}
+.product p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.product .buy {
+  color: #0071e3;
+}
+
+#ipad {
+  background-image: url(./ipadair.png);
+}
+#ipad img {
+  width: 250px;
+  height: 33px;
+  margin-top: 40px;
+}
+#ipad p {
+  color: black;
+  font-weight: 400;
+  margin-top: 15px;
+}
+#ipad span {
+  margin-top: 300px;
+  font-size: 14px;
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.more {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+#airpods {
+  background-image: url(./airpodspro2.png);
+  display: flex;
+  justify-content: end;
+  padding-bottom: 50px;
+}
+#macbook {
+  background-image: url(./macbookair.png);
+}
+
+#macbook h1 {
+  color: black;
+  margin-top: 15px;
+}
+#macbook p {
+  color: black;
+  margin-top: 5px;
+}
+
+#watch {
+  background-image: url(./watch.png);
+}
+.vector {
+  width: 28px;
+  height: 33px;
+  position: relative;
+}
+#watch h1 {
+  display: flex;
+  width: 161px;
+  height: 61px;
+  gap: 8px;
+  color: black;
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 15px;
+}
+#watch h4 {
+  font-size: 14px;
+  margin-top: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#watch p {
+  color: black;
+  margin-top: 8px;
+}
+
+#tradein {
+  background-image: url(./tradein.png);
+}
+#tradein h1 {
+  color: black;
+  gap: 8px;
+  display: flex;
+  font-size: 32px;
+  margin-top: 15px;
+}
+#tradein p {
+  color: black;
+  font-size: 18px;
+  line-height: 24px;
+  width: 322px;
+  text-align: center;
+  margin-top: 8px;
+}
+#tradein .learn {
+  width: 167px;
+  margin-top: 10px;
+}
+#card {
+  background-image: url(./card.png);
+}
+#card h1 {
+  color: black;
+  font-size: 32px;
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+}
+#card p {
+  width: 322px;
+  color: black;
+  text-align: center;
+  margin-top: 8px;
+}
+#card .buy {
+  width: 112px;
+}
+#card .more {
+  margin-top: 10px;
 }
