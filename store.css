@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: inter;
+  scrollbar-width: none;
 }
 body {
   display: flex;
@@ -22,11 +23,11 @@ nav {
   background-color: #f5f5f7cc;
   position: fixed;
 }
-.logo {
+.navbar_logo {
   width: 14px;
-  height: 44px;
+  height: 17px;
 }
-.search {
+.navbar_search {
   width: 15px;
   height: 44px;
 }
@@ -151,6 +152,7 @@ section p {
   margin-top: 30px;
   overflow-x: scroll;
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 .Thelatest div {
   min-width: 480px;
@@ -198,23 +200,20 @@ h4 {
 /* product2 aaakjaas */
 .personal {
   width: 100%;
-  height: 500px;
   display: flex;
   gap: 20px;
   overflow-x: scroll;
   scroll-behavior: smooth;
   padding-left: 140px;
   margin-top: 30px;
+  scrollbar-width: none;
 }
 .personal div {
-  height: 500px;
   border-radius: 20px;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
 }
 .personal1 {
-  background-image: url(./store-card-40-holiday-engraving-202411.png);
+  background-image: url(./personal_item_1.png);
+  height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
   min-width: 400px;
@@ -226,6 +225,7 @@ h4 {
 }
 .personal2 {
   min-width: 313px;
+  height: 500px;
   background-color: white;
   padding-top: 71px;
   padding-left: 28px;
@@ -233,23 +233,48 @@ h4 {
   padding-bottom: 32px;
 }
 .items {
-  width: 88px;
+  width: 270px;
   height: 12px;
   display: flex;
+  gap: 7px;
+  justify-content: center;
 }
 .items img {
   width: 12px;
   height: 12px;
 }
+h6 {
+  margin-top: 30px;
+}
+.price1 h3 {
+  margin-top: 10px;
+  width: 257px;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 159px;
+}
 .personal3 {
   min-width: 313px;
 }
+.personal3 img {
+  margin-top: 20px;
+}
+#personal .personal3 img {
+  margin-top: 0;
+  margin-left: 15px;
+}
 .personal4 {
-  min-width: 313px;
-}
-.personal5 {
-  min-width: 313px;
-}
-.personal6 {
-  min-width: 313px;
+  background-image: url(./holiday_item_1.png);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 400px;
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-top: 70px;
+  padding-right: 50px;
 }

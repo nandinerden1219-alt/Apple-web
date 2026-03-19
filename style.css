@@ -23,11 +23,11 @@ nav {
   background-color: #f5f5f7cc;
   position: fixed;
 }
-.logo {
+.navbar_logo {
   width: 14px;
-  height: 44px;
+  height: 17px;
 }
-.search {
+.navbar_search {
   width: 15px;
   height: 44px;
 }
@@ -48,7 +48,7 @@ span {
 /* main product name */
 /* first */
 main {
-  background-image: url(./background1.jpg);
+  background-image: url(./home_background_1.jpg);
   width: 100%;
   height: 692px;
   background-size: cover;
@@ -111,7 +111,7 @@ main div {
 /* firstend */
 /* main second */
 #main {
-  background-image: url(./Figure.png);
+  background-image: url(./home_background_2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +120,7 @@ main div {
 /* second end */
 /* main third  */
 .main {
-  background-image: url(./apple.png);
+  background-image: url(./home_background_3.png);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -182,7 +182,7 @@ main div {
 }
 
 #ipad {
-  background-image: url(./ipadair.png);
+  background-image: url(./product_section_1.png);
 }
 #ipad img {
   width: 250px;
@@ -213,13 +213,13 @@ main div {
   margin-top: 20px;
 }
 #airpods {
-  background-image: url(./airpodspro2.png);
+  background-image: url(./product_section_2.png);
   display: flex;
   justify-content: end;
   padding-bottom: 50px;
 }
 #macbook {
-  background-image: url(./macbookair.png);
+  background-image: url(./product_section_3.png);
 }
 
 #macbook h1 {
@@ -232,7 +232,7 @@ main div {
 }
 
 #watch {
-  background-image: url(./watch.png);
+  background-image: url(./product_section_4.png);
 }
 .vector {
   width: 28px;
@@ -261,7 +261,7 @@ main div {
 }
 
 #tradein {
-  background-image: url(./tradein.png);
+  background-image: url(./product_section_5.png);
 }
 #tradein h1 {
   color: black;
@@ -283,7 +283,7 @@ main div {
   margin-top: 10px;
 }
 #card {
-  background-image: url(./card.png);
+  background-image: url(./product_section_6.png);
 }
 #card h1 {
   color: black;
@@ -447,23 +447,23 @@ main div {
   color: black;
 }
 #page3 {
-  background-image: url(./3.jpg);
+  background-image: url(./infinity_spin_3.jpg);
   position: relative;
 }
 #page4 {
-  background-image: url(./4.jpg);
+  background-image: url(./infinity_spin_4.jpg);
   position: relative;
 }
 #page5 {
-  background-image: url(./5.jpg);
+  background-image: url(./infinity_spin_5.jpg);
   position: relative;
 }
 #page6 {
-  background-image: url(./6.jpg);
+  background-image: url(./infinity_spin_6.jpg);
   position: relative;
 }
 #page7 {
-  background-image: url(./7.jpg);
+  background-image: url(./infinity_spin_7.jpg);
   position: relative;
 }
 #page8 {
@@ -471,7 +471,7 @@ main div {
   position: relative;
 }
 #page9 {
-  background-image: url(./9.jpg);
+  background-image: url(./infinity_spin_9.jpg);
   position: relative;
 }
 #page10 {
@@ -503,7 +503,7 @@ main div {
   gap: 20px;
 }
 #item1 {
-  background-image: url(./napoleon.jpg);
+  background-image: url(./media_scroll_1.jpg);
 }
 .media a {
   color: black;
@@ -519,34 +519,34 @@ main div {
   margin-bottom: 10px;
 }
 #item2 {
-  background-image: url(./bad-monkey.jpg);
+  background-image: url(./media_scroll_2.jpg);
 }
 #item3 {
-  background-image: url(./baseball.jpg);
+  background-image: url(./media_scroll_3.jpg);
 }
 #item3 a {
   width: 160pxs;
 }
 #item4 {
-  background-image: url(./instigators.jpg);
+  background-image: url(./media_scroll_4.jpg);
 }
 #item5 {
-  background-image: url(k-pop-idols.jpg);
+  background-image: url(./media_scroll_5.jpg);
 }
 #item6 {
-  background-image: url(lady-in-the-lake.jpg);
+  background-image: url(./media_scroll_6.jpg);
 }
 #item7 {
-  background-image: url(./morning-show.jpg);
+  background-image: url(./media_scroll_7.jpg);
 }
 #item8 {
-  background-image: url(pachinko.jpg);
+  background-image: url(media_scroll_8.jpg);
 }
 #item9 {
-  background-image: url(pressumed-innocent.jpg);
+  background-image: url(media_scroll_9.jpg);
 }
 #item10 {
-  background-image: url(season-pass.jpg);
+  background-image: url(media_scroll_10.jpg);
 }
 .dots a {
   width: 12px;
