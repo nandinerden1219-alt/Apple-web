@@ -5,8 +5,8 @@
 }
 body {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  background-color: #f5f5f7;
 }
 /* navbar fixed */
 nav {
@@ -46,32 +46,45 @@ span {
 }
 .color {
   width: 100%;
-  height: 35px;
+  height: 100px;
   margin-top: 15px;
 }
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-top: 80px;
   gap: 20px;
+  width: 100%;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.header {
+  display: flex;
+  gap: 30px;
 }
 h1 {
+  background-image: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 50%,
+    #f2416b 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 44px;
-  font-weight: 700;
 }
 h2 {
   font-size: 44px;
   font-weight: 700;
   color: #6e6e73;
-  width: 216px;
 }
 .Specialist {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  width: 118px;
-  height: 184px;
+  gap: 5px;
+  text-align: end;
 }
 .specialist1 {
   display: flex;
@@ -84,21 +97,159 @@ main img {
 main p {
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 4px;
 }
 main a {
   font-size: 14px;
   font-weight: 700;
   color: #0066cc;
   text-decoration: underline;
-  width: 65px;
-  height: 36px;
 }
-#a {
-  position: relative;
-  left: 55px;
+section {
+  width: 100vw;
+  height: 145px;
+  padding-left: 140px;
+  display: flex;
+  margin-top: 80px;
+  gap: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
-#a2 {
-  width: 100px;
-  height: 36px;
+section img {
+  width: 120px;
+  height: 78px;
+}
+section p {
+  margin-top: 15px;
+}
+.small-text {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 140px;
+  display: flex;
+  gap: 5px;
+  margin-top: 50px;
+}
+.small-text h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.small-text h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+/* products AAAAAAAAA */
+.Thelatest {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  gap: 20px;
+  padding-left: 140px;
+  margin-top: 30px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.Thelatest div {
+  min-width: 480px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+h6 {
+  color: #b64400;
+  font-size: 12px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.Thelatest p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+}
+
+.latest1 {
+  background-image: url(./store-card-50-holiday-iphone-pro-202411_GEO_US.png);
+  background-size: cover;
+}
+.latest2 {
+  background-image: url(./store-card-50-holiday-watch-s10-202411.png);
+  background-size: cover;
+}
+.latest2 h4 {
+  margin-top: 25px;
+}
+.latest3 {
+  background-image: url(./store-card-50-holiday-ipad-mini-202411.png);
+  background-size: cover;
+}
+.latest4 {
+  background-image: url(./store-card-50-holiday-macbook-pro-202411.png);
+  background-size: cover;
+}
+/* product2 aaakjaas */
+.personal {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-left: 140px;
+  margin-top: 30px;
+}
+.personal div {
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.personal1 {
+  background-image: url(./store-card-40-holiday-engraving-202411.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 400px;
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-top: 70px;
+  padding-right: 190px;
+}
+.personal2 {
+  min-width: 313px;
+  background-color: white;
+  padding-top: 71px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 32px;
+}
+.items {
+  width: 88px;
+  height: 12px;
+  display: flex;
+}
+.items img {
+  width: 12px;
+  height: 12px;
+}
+.personal3 {
+  min-width: 313px;
+}
+.personal4 {
+  min-width: 313px;
+}
+.personal5 {
+  min-width: 313px;
+}
+.personal6 {
+  min-width: 313px;
 }
