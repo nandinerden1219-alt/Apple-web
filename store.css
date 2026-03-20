@@ -221,7 +221,6 @@ h4 {
   font-weight: 700;
   padding-left: 30px;
   padding-top: 70px;
-  padding-right: 190px;
 }
 .personal2 {
   min-width: 313px;
@@ -231,6 +230,8 @@ h4 {
   padding-left: 28px;
   padding-right: 28px;
   padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
 }
 .items {
   width: 270px;
@@ -256,6 +257,9 @@ h6 {
   justify-content: space-between;
   height: 159px;
 }
+#price {
+  margin-top: 44px;
+}
 .personal3 {
   min-width: 313px;
 }
@@ -276,5 +280,40 @@ h6 {
   font-weight: 700;
   padding-left: 30px;
   padding-top: 70px;
-  padding-right: 50px;
+}
+.personal4 p {
+  width: 290px;
+}
+/* ///// */
+.only_at_apple {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding-left: 140px;
+  margin-top: 30px;
+  scrollbar-width: none;
+}
+.only1 {
+  min-width: 480px;
+  height: 500px;
+  background-image: url(onlyatapple_1.png);
+  font-size: 26px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-top: 50px;
+  border-radius: 30px;
+}
+.only1 p {
+  width: 305px;
+  height: 500px;
+}
+.only2 {
+  width: 646px;
+  height: 500px;
+  display: grid;
+
+  background-color: white;
 }
