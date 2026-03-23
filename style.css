@@ -15,26 +15,33 @@ nav {
   height: 44px;
   display: flex;
   gap: 24px;
-  font-family: Inter;
   font-size: 12px;
   font-weight: 400;
   align-items: center;
   justify-content: center;
-  background-color: #f5f5f7cc;
+  background-color: #f5f5f7;
   position: fixed;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
 }
 .navbar_logo {
   width: 14px;
   height: 17px;
 }
-.navbar_search {
-  width: 15px;
-  height: 44px;
+menu {
+  width: 55px;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.bag {
-  width: 14px;
-  height: 44px;
+.navbar_menu {
+  display: none;
 }
+
 /* navbar end */
 span {
   font-family: inter;
@@ -44,16 +51,17 @@ span {
   justify-content: center;
   color: #1d1d1f;
   padding-top: 60px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
 }
-/* main product name */
+/* section */
 /* first */
-main {
-  background-image: url(./home_background_1.jpg);
+section {
   width: 100%;
   height: 692px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   margin-top: 16px;
   display: flex;
   flex-direction: column;
@@ -61,19 +69,45 @@ main {
   font-family: Inter;
   gap: 16px;
 }
+.section1 {
+  background-image: url(./home_background_1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+}
+.section2 {
+  background-image: url(./home_background_2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+.section3 {
+  background-image: url(./home_background_3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 450px;
+}
 h1 {
   font-size: 52px;
   color: white;
   font-weight: 600;
-  margin-top: 50px;
-  padding-top: 36px;
 }
 p {
   font-size: 24px;
   color: white;
   font-weight: 400;
 }
-main div {
+.section3 h1 {
+  color: black;
+}
+.section3 p {
+  color: black;
+}
+/* learn and buy button */
+.learn_buy {
   font-size: 16px;
   font-weight: 400;
   font-family: Inter;
@@ -108,37 +142,8 @@ main div {
   display: flex;
   justify-content: center;
 }
-/* firstend */
-/* main second */
-#main {
-  background-image: url(./home_background_2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 8px;
-}
-/* second end */
-/* main third  */
-.main {
-  background-image: url(./home_background_3.png);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 692px;
-  padding-top: 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  align-items: center;
-  justify-content: end;
-  padding-bottom: 100px;
-}
-.main h1 {
-  color: black;
-}
-.main p {
-  color: black;
-}
+/* learn and buy end */
+
 .shop {
   width: 114px;
   height: 44px;
@@ -148,10 +153,10 @@ main div {
   justify-content: center;
   align-items: center;
   color: white;
-  gap: 16px;
 }
-/* main end */
-/* products */
+/* Section end */
+
+/* products scroll media */
 .product {
   width: 100%;
   height: 1764px;
@@ -169,6 +174,7 @@ main div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 30px;
 }
 .product h1 {
   font-size: 36px;
@@ -195,7 +201,7 @@ main div {
   margin-top: 15px;
 }
 #ipad span {
-  margin-top: 300px;
+  margin-top: 280px;
   font-size: 14px;
   background: linear-gradient(
     90deg,
@@ -218,20 +224,19 @@ main div {
   justify-content: end;
   padding-bottom: 50px;
 }
-#macbook {
+#watch {
   background-image: url(./product_section_3.png);
 }
 
-#macbook h1 {
+#watch h1 {
   color: black;
   margin-top: 15px;
 }
-#macbook p {
+#watch p {
   color: black;
-  margin-top: 5px;
 }
 
-#watch {
+#macbook {
   background-image: url(./product_section_4.png);
 }
 .vector {
@@ -239,9 +244,9 @@ main div {
   height: 33px;
   position: relative;
 }
-#watch h1 {
+#macbook h1 {
   display: flex;
-  width: 161px;
+  width: 200px;
   height: 61px;
   gap: 8px;
   color: black;
@@ -249,15 +254,13 @@ main div {
   font-size: 32px;
   margin-top: 15px;
 }
-#watch h4 {
+#macbook h4 {
   font-size: 14px;
-  margin-top: 18px;
   font-weight: 700;
   letter-spacing: 2px;
 }
-#watch p {
+#macbook p {
   color: black;
-  margin-top: 8px;
 }
 
 #tradein {
@@ -304,6 +307,7 @@ main div {
 #card .more {
   margin-top: 10px;
 }
+/* product end */
 .carousel {
   width: 100%;
   display: flex;
@@ -482,8 +486,8 @@ main div {
 /* hajuu tishe hucheer huduldg */
 .media {
   width: 100%;
-  height: 668px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   overflow-x: scroll;
   scroll-behavior: smooth;
@@ -491,7 +495,7 @@ main div {
 }
 .media div {
   min-width: 1200px;
-  height: 668px;
+  min-height: 668px;
   background-size: contain;
   background-repeat: no-repeat;
   scroll-snap-align: center;
@@ -525,7 +529,7 @@ main div {
   background-image: url(./media_scroll_3.jpg);
 }
 #item3 a {
-  width: 160pxs;
+  width: 160px;
 }
 #item4 {
   background-image: url(./media_scroll_4.jpg);
@@ -557,4 +561,58 @@ main div {
 }
 .dot {
   display: flex;
+}
+@media (max-width: 1290px) {
+  .media {
+    min-height: 668px;
+  }
+}
+@media (max-width: 768px) {
+  nav a {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .navbar_menu {
+    display: block;
+  }
+  .media {
+    width: 100%;
+    min-height: 380px;
+    gap: 10px;
+  }
+  .media div {
+    min-width: 689px;
+    min-height: 380px;
+  }
+}
+@media (max-width: 390px) {
+  .section1 {
+    background-image: url(./section_mobile_background_1.png);
+    height: 500px;
+    padding-top: 330px;
+  }
+  .section2 {
+    background-image: url(./section_mobile_background_2.png);
+    height: 500px;
+  }
+  .section3 {
+    height: 500px;
+    padding-top: none;
+  }
+  .section3 h1 {
+    margin-top: -130px;
+  }
+  section h1 {
+    font-size: 30px;
+  }
+  section p {
+    font-size: 24px;
+  }
+  .product figure {
+    width: 100%;
+  }
 }
